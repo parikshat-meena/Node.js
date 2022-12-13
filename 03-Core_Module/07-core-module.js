@@ -1,0 +1,10 @@
+const path = require('path')
+// console.log(__dirname)
+// console.log(__filename)
+
+console.log(path.basename(__dirname))
+console.log(path.basename("c:/learning/node/mysessions"))
+console.log(path.dirname(__dirname))
+console.log(path.extname(__filename))
+console.log(path.isAbsolute(__dirname))
+console.log(path.isAbsolute("project/sessions"))
